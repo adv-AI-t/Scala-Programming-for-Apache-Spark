@@ -58,6 +58,7 @@ _**Explanation**: Launch the Spark shell, paste your code into the interactive p
 ```bash
 nc -lk 9999
 ```
+_**Note**: Run this command in a new terminal, not in the spark-shell._
 _**Explanation**: Listens for incoming text on port 9999._
 
 ---
