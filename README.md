@@ -18,14 +18,34 @@ _**Explanation**: Downloads Spark 3.5.3 with Hadoop 3 and sets it up in the home
 
 ### 2. Launch Spark Shell or Run Your Scala Code
 ```bash
-cd ~/Spark/spark-3.5.3-bin-hadoop3/
-bin/spark-shell
+cd ~/Spark/spark-3.5.3-bin-hadoop3/bin
 ```
 _**Explanation**: Opens the interactive Spark shell with Scala for testing._
 
 ---
 
 ### 3. Enter scala code
+```bash
+./spark-shell
+```
+
+After this, if everything is right, you should see this:
+```
+Spark session available as 'spark'.
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 3.5.3
+      /_/
+         
+Using Scala version 2.12.18 (Java HotSpot(TM) 64-Bit Server VM, Java 22.0.1)
+Type in expressions to have them evaluated.
+Type :help for more information.
+
+scala> 
+```
+
 
 Open the spark-shell, then paste the contents of `wordcount.scala` directly into it. Then press enter.
 
